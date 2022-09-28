@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="upload">
+
+        <h1 class="text-center">File Upload</h1>
+        <ul>
+            <li>Image dimension must be less than 200x200 pixels</li>
+            <li>Image size must be less than 50KB</li>
+            <li>Image type must be .JPEG or .JPG</li>
+          </ul>
+        <form enctype="multipart/form-data">
+            <div>
+                <label class="form-label" for="files">Select Image</label>
+                <input class="form-control" id="image" type="file" />
+            </div>
+            <div class="id-submitbtn">
+                <input 
+                class="btn btn-success w-100" 
+                type="submit" 
+                value="Upload" 
+                id="upload-submit"
+                onclick="upload(image)">
+            </div>
+        </form>
+        <button onclick="logout()" type="button" class="btn btn-secondary btn-lg btn-block w-100">Log out</button>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="upload.js"></script>
+</body>
+</html>

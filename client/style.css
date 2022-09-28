@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBBCCC;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #E8E8E8;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.register {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #E8E8E8;
+}
+
+.register h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.register form {
+    font-size: 20px;
+}
+
+.register form .form-group {
+    margin-bottom: 12px;
+}
+
+.register form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.upload {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #E8E8E8;
+}
+
+.upload h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.upload form {
+    font-size: 20px;
+}
+
+.upload form .form-group {
+    margin-bottom: 12px;
+}
+
+.upload form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
