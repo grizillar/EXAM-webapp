@@ -38,7 +38,7 @@ async function upload(file){
 
             formData.append("image", image);
 
-            const api_url = "http://54.161.9.1:8080/upload/";
+            const api_url = "http://44.211.158.138:8080/upload/";
             const res = await postapi(api_url, {
                 content: formData
             });

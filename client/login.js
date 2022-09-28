@@ -4,7 +4,7 @@ document.getElementById("login-submit").addEventListener("click", function(event
 
 async function login(username, password){
     console.log(`fn is running with ${username.value} and ${password.value}`);
-    const api_url = "http://54.161.9.1:8080/checkUser";
+    const api_url = "http://44.211.158.138:8080/checkUser";
     const res = await postapi(api_url, {
         username: username.value,
         password: password.value
